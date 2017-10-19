@@ -1,3 +1,6 @@
+from datetime import date
+import sqlalchemy as sa
+import pandas as pd
 from plotly.offline import download_plotlyjs, init_notebook_mode, iplot
 from plotly.graph_objs import Scatter, Figure, Layout, Histogram, Heatmap
 from plotly import tools
@@ -56,3 +59,19 @@ def plot_subplot(data, titles, main_title, rows, cols, show_legend=True,
                          legend=dict(orientation="h"))
     config = dict(displayModeBar=False)
     iplot(fig, show_link=False, config=config)
+
+
+# Create a database file using sqlite
+engine = sa.create_engine('sqlite:///cl_basic_data_analysis.db')
+
+
+# Make it easier to download data by making a generatic function
+def data_from_table(table_name, index_col=None):
+    return pd.read_sql_query('SELECT * FROM {}'.format(table_name),
+                             con=engine, index_col=index_col)
+
+
+# We will probably want to use a datetime field for plotting so we will do that now
+def gen_datetime_col(df, year_col, month_col, day_col):
+    # Takes in 3 series: year, month and day, and converts to a new series of type date
+    return df[[year_col, month_col, day_col]].apply(lambda x: date(x[0], x[1], x[2]), axis=1)

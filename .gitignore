@@ -1,1 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
+.ipynb_checkpoints/*
+.idea/*
+.ipynb_checkpoints/2. Preliminary Exploration of CL Data-checkpoint.ipynb
+*.xml

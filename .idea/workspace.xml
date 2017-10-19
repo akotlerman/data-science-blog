@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72a8768e-be72-42c3-95d2-c996d01342b3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/plot_utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1. Premium Data CL Basic Spread Analysis.ipynb" afterPath="$PROJECT_DIR$/1. Premium Data CL Basic Spread Analysis.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/2. Preliminary Exploration of CL Data-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/2. Preliminary Exploration of CL Data-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1. Getting Starting with CL Analysis.ipynb" afterPath="$PROJECT_DIR$/1. Getting Starting with CL Analysis.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2. Preliminary Exploration of CL Data.ipynb" afterPath="$PROJECT_DIR$/2. Preliminary Exploration of CL Data.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/plot_utils.py" afterPath="$PROJECT_DIR$/utils/plot_utils.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -40,10 +40,11 @@
       <file leaf-file-name="plot_utils.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/utils/plot_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+            <state relative-caret-position="399">
+              <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
               <folding>
-                <element signature="e#0#71#0" expanded="true" />
+                <element signature="e#0#25#0" expanded="true" />
+                <marker date="1508446546588" expanded="true" signature="2398:2412" ph="SELECT * FRO... missing_value" />
               </folding>
             </state>
           </provider>
@@ -136,6 +137,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="72a8768e-be72-42c3-95d2-c996d01342b3" name="Default" comment="" />
@@ -193,17 +197,18 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/plot_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+        <state relative-caret-position="399">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
           <folding>
-            <element signature="e#0#71#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
+            <marker date="1508446546588" expanded="true" signature="2398:2412" ph="SELECT * FRO... missing_value" />
           </folding>
         </state>
       </provider>
