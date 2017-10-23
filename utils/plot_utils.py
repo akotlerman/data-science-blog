@@ -20,7 +20,7 @@ def plot(data, title='', show_legend=True, hover_info=True, zoom=True, interacti
             except:
                 pass
 
-    layout = Layout(title=title, legend=dict(orientation="h"))
+    layout = Layout(title=title, legend=dict(orientation="h"), showlegend=show_legend)
     layout.xaxis.fixedrange = not zoom
     layout.yaxis.fixedrange = not zoom
     fig = Figure(data=data, layout=layout)
