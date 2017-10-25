@@ -1,15 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
-.ipynb_checkpoints/*
-.idea/*
-.ipynb_checkpoints/2. Preliminary Exploration of CL Data-checkpoint.ipynb
-*.xml
-.idea/data-science-blog.iml
-.idea/data-science-blog.iml
-.idea/data-science-blog.iml
-.idea/misc.xml
-.idea/workspace.xml
-.ipynb_checkpoints/2. Preliminary Exploration of CL Data-checkpoint.ipynb
-utils/__pycache__/__init__.cpython-36.pyc
-utils/__pycache__/data_utils.cpython-36.pyc
-utils/__pycache__/plot_utils.cpython-36.pyc
+.ipynb_checkpoints/
+.idea/
+utils/__pycache__
 cl_basic_data_analysis.db
